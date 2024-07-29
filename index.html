@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe Menu</h1>
+            <input type="text" id="search" placeholder="Search recipes...">
+        </nav>
+    </header>
+    
+    <main>
+        <section class="recipe-cards">
+            <div class="recipe-card" data-id="1">
+                <img src="image/image1.jpg" alt="Basil Pesto Jumbo Salmon Roast Dinner" class="recipe-img">
+                <h2>Basil Pesto Jumbo Salmon Roast Dinner</h2>
+                <p><span class="icon">🌿</span> 560 calories</p>
+                <p><span class="icon">⚔️</span> Protein ® 35g</p>
+                <p><span class="icon">⭐</span> 4.7 rating (12)</p>
+            </div>
+            <div class="recipe-card" data-id="2">
+                <img src="image/image2.jpg" alt="Lemon Pepper Chicken" class="recipe-img">
+                <h2>Lemon Pepper Chicken</h2>
+                <p><span class="icon">🌿</span> 550 calories</p>
+                <p><span class="icon">⚔️</span> Protein ® 46g</p>
+                <p><span class="icon">⭐</span> 4.8 rating (15)</p>
+            </div>
+            <div class="recipe-card" data-id="3">
+              <img src="image/image3.jpg" alt="Lemon Butter Basted Salmon" class="recipe-img">
+              <h2>Lemon Butter Basted Salmon</h2>
+              <p><span class="icon">🌿</span> 620 calories</p>
+              <p><span class="icon">⚔️</span> Protein ® 40g</p>
+              <p><span class="icon">⭐</span> 4.5 rating (13)</p>
+          </div>
+          <div class="recipe-card" data-id="4">
+              <img src="image/image4.jpg" alt="Smart Zesty Chicken Meatballs" class="recipe-img">
+              <h2>Smart Zesty Chicken Meatballs</h2>
+              <p><span class="icon">🌿</span> 470 calories</p>
+              <p><span class="icon">⚔️</span> Protein ® 45g</p>
+              <p><span class="icon">⭐</span> 4.2 rating (19)</p>
+          </div>
+          <div class="recipe-card" data-id="5">
+            <img src="image/image5.jpg" alt="Steaks and Easy Scalloped Potatoes" class="recipe-img">
+            <h2>Steaks and Easy Scalloped Potatoes</h2>
+            <p><span class="icon">🌿</span> 750 calories</p>
+            <p><span class="icon">⚔️</span> Protein ® 45g</p>
+            <p><span class="icon">⭐</span> 4.3 rating (20)</p>
+        </div>
+        <div class="recipe-card" data-id="6">
+            <img src="image/image6.jpg" alt="Pork Spaghetti Bolognese" class="recipe-img">
+            <h2>Pork Spaghetti Bolognese</h2>
+            <p><span class="icon">🌿</span> 700 calories</p>
+            <p><span class="icon">⚔️</span> Protein ® 35g</p>
+            <p><span class="icon">⭐</span> 4.6 rating (11)</p>
+        </div>
+        <div class="recipe-card" data-id="7">
+          <img src="image/image7.jpg" alt="Almond-Topped Pork Chops" class="recipe-img">
+          <h2>Almond-Topped Pork Chops</h2>
+          <p><span class="icon">🌿</span> 650 calories</p>
+          <p><span class="icon">⚔️</span> Protein ® 42g</p>
+          <p><span class="icon">⭐</span> 4.9 rating (19)</p>
+      </div>
+      <div class="recipe-card" data-id="8">
+          <img src="image/image8.jpg" alt="Jalapeño Popper Stuffed Chicken" class="recipe-img">
+          <h2>Jalapeño Popper Stuffed Chicken</h2>
+          <p><span class="icon">🌿</span> 680 calories</p>
+          <p><span class="icon">⚔️</span> Protein ® 45g</p>
+          <p><span class="icon">⭐</span> 4.8 rating (15)</p>
+      </div>
+        </section>
+    </main>
+
+    <!-- Popup Modal -->
+    <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="popup-details"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
